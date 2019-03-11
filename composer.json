@@ -1,0 +1,28 @@
+{
+    "name": "acrnogor/wkhtmltopdf",
+    "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+    "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
+    "license": "LGPL-3.0",
+    "homepage": "http://wkhtmltopdf.org/",
+    "authors": [
+        {
+            "name": "Julius Beckmann",
+            "email": "github@h4cc.de"
+        },
+        {
+            "name": "Ante Crnogorac",
+            "email": "ante.crnogorac@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/wkhtmltopdf"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Acrnogor\\Wkhtmltopdf\\": ""
+        }
+    }
+}
