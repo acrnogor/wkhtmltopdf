@@ -19,11 +19,11 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 And for _amd64_ with:
 
-    php composer.phar require acrnogor/wkhtmltopdf-amd64 "0.12.5"
+    php composer.phar require acrnogor/wkhtmltopdf "0.1"
 
 The binary will then be located at:
 
-    vendor/acrnogor/wkhtmltopdf-amd64/bin/wkhtmltopdf
+    vendor/acrnogor/wkhtmltopdf/bin/wkhtmltopdf
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
